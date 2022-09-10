@@ -1,7 +1,16 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-// Example deployed to Goerli: 0xDBa03676a2fBb6711CB652beF5B7416A53c1421D
+// Deployed to Goerli: 0xF05bcC8A854d786a0eF86fE54A33765897f58c1C
+
+/** First challenge allow to change the address of Owner after the contract is deployed.
+New function that allows the owner address to be updated, but the function can be done only by specified people, 
+only the person who have deployed can change it to another address.
+Might need to add new state variable and a new function
+*/ 
+
+/** Second Chalenge
+*/ 
 
 contract BuyMeACoffee {
     // Event to emit when a Memo is created.
